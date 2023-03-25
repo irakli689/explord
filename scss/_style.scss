@@ -60,3 +60,49 @@ header{
         }
     }
 }
+article{
+    margin-top: 150px;
+    .articlecontainer{
+        max-width: 1170px;
+        width: 100%;
+        margin: $cont-center;
+        background-image: $homearticleimg;
+        height: 270px;
+        background-color: blue;
+        position: relative;
+        .articlecontent{
+           position: absolute;
+           left: 50px;
+           top: 50px;
+           padding: 50px;
+           & > h2, &>p, &>button>a{
+            font-family: $roboto;
+            color: white;
+           }
+           &>h2{
+            font-size: 32px;
+            margin-bottom: 16px;
+           }
+           &>p{
+            font-size: 15px;
+            max-width: 1000px;
+            width: 100%;
+            margin-bottom: 16px;
+            line-height: 20px;
+           }
+           &>button{
+            width: 160px;
+            height: 50px;
+            border-radius: 15%/50%;
+            background-color: #6294A2;
+            &>a{
+                font-size: 18px;
+            }
+            &:hover{
+                width: 180px;
+                height: 60px;
+            }
+           }
+        }
+    }
+}

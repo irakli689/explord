@@ -150,4 +150,51 @@ header .container .navbar ul li .bold {
 }
 header .container .navbar ul li .fa-magnifying-glass {
   cursor: pointer;
+}
+
+article {
+  margin-top: 150px;
+}
+article .articlecontainer {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../images/home/homeartimg.jpg");
+  height: 270px;
+  background-color: blue;
+  position: relative;
+}
+article .articlecontainer .articlecontent {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  padding: 50px;
+}
+article .articlecontainer .articlecontent > h2, article .articlecontainer .articlecontent > p, article .articlecontainer .articlecontent > button > a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+article .articlecontainer .articlecontent > h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+article .articlecontainer .articlecontent > p {
+  font-size: 15px;
+  max-width: 1000px;
+  width: 100%;
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+article .articlecontainer .articlecontent > button {
+  width: 160px;
+  height: 50px;
+  border-radius: 15%/50%;
+  background-color: #6294A2;
+}
+article .articlecontainer .articlecontent > button > a {
+  font-size: 18px;
+}
+article .articlecontainer .articlecontent > button:hover {
+  width: 180px;
+  height: 60px;
 }/*# sourceMappingURL=global.css.map */
