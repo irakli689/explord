@@ -1,0 +1,62 @@
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .container{
+        height: 100px;
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        @include flexparams();
+        .home{
+            max-width: 140px;
+            width: 100%;
+            @include flexparams();
+            .weblogo{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #6294A2;
+            }
+            .webname{
+                font-family: $roboto;
+                font-size: 22px;
+                &::first-letter{
+                    font-weight: bolder;
+                }
+            }
+            
+        }
+        .navbar{
+            max-width: 350px;
+            width: 100%;
+            ul{
+                @include flexparams();
+                li{
+                    font-family: $roboto;
+                    input[type=text]{
+                        width: 70px;
+                        border: none;
+                        outline: none;
+                    }
+                    &:last-child{
+                        padding: 2px;
+                        border: 1px solid grey;
+                    }
+                    a{
+                        font-size: 16px;
+                        color: #404040;
+                        font-family: $roboto;
+                    }
+                    .bold{
+                        font-weight: bold;
+                    }
+                    .fa-magnifying-glass{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
