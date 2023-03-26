@@ -252,6 +252,7 @@ article{
     }
 }
 .s-2{
+    margin-bottom: 20px;
     .sect-2{
         max-width: 1170px;
         width: 100%;
@@ -313,5 +314,30 @@ article{
                 }
             }
         }
+    }
+}
+.hp-footer{
+    padding: 40px 0px 40px 200px;
+    background-color:rgba(255, 230, 0, 0.86);
+    .footer-container{
+        max-width: 1170px;
+        width: 100%;
+        @include flexparams();
+        .footerbox{
+            max-width: 350px;
+            width: 100%;
+            &:nth-child(2){
+                @include flexparams(flex, space-around, center, row);
+            }
+            &>div{
+                &>h2, &>h3, &>h4, &>h5, &>p{
+                    font-family: $roboto;
+                }
+                &>h4{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        
     }
 }
