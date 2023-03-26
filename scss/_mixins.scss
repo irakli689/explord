@@ -1,7 +1,8 @@
-@mixin flexparams($flex: flex, $justify: space-between, $align: center){
+@mixin flexparams($flex: flex, $justify: space-between, $align: center, $row: row){
     display: $flex;
     justify-content: $justify;
     align-items: $align;
+    flex-direction: $row;
 }
 @mixin bgimgparams(){
     background-position: center;
