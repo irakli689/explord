@@ -580,7 +580,7 @@ article .articlecontainer .articlecontent > button:hover {
 }
 
 .curoniansect {
-  margin-top: 150px;
+  margin: 150px 0 50px 0;
 }
 .curoniansect .container {
   max-width: 1170px;
@@ -677,4 +677,71 @@ article .articlecontainer .articlecontent > button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+.curoniansect .container .author .authorinfo {
+  max-width: 600px;
+  width: 100%;
+}
+.curoniansect .container .author .authorinfo h2 {
+  color: #404040;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5px;
+}
+.curoniansect .container .author .authorinfo h3 {
+  font-size: 15px;
+  color: #404040;
+}
+.curoniansect .container .author .authorinfo p {
+  font-size: 14px;
+  color: #404040;
+}
+
+.survey .surveycont {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../images/curonianspit/surveybg.jpg");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.survey .surveycont .surveytext {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  left: 40px;
+  top: 50px;
+}
+.survey .surveycont .surveytext h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #F0F0F0;
+}
+.survey .surveycont .surveytext p {
+  color: #FCFCFC;
+  font-size: 16px;
+}
+.survey .surveycont .surveybtns {
+  position: absolute;
+  left: 40px;
+  top: 150px;
+}
+.survey .surveycont .surveybtns .send {
+  width: 150px;
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3B79E0), to(#58C3DD));
+  background-image: linear-gradient(to right, #3B79E0, #58C3DD);
+  color: #F0F0F0;
+  font-size: 17px;
+  border-radius: 20%/50%;
+}
+.survey .surveycont .surveybtns .read {
+  width: 200px;
+  height: 50px;
+  background-color: #010002;
+  color: #F0F0F0;
+  font-size: 17px;
+  border-radius: 15%/50%;
 }/*# sourceMappingURL=global.css.map */

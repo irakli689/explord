@@ -342,7 +342,7 @@ article{
     }
 }
 .curoniansect{
-    margin-top: 150px;
+    margin: 150px 0 50px 0;
     .container{
         max-width: 1170px;
         width: 100%;
@@ -398,6 +398,70 @@ article{
             width: 100%;
             margin: $cont-center;
             @include flexparams();
+            .authorinfo{
+                max-width: 600px;
+                width: 100%;
+                h2{
+                    color: #404040;
+                    font-size: 20px;
+                    font-family: $roboto;
+                    margin-bottom: 5px;
+                }
+                h3{
+                    font-size: 15px;
+                    color: #404040;
+                }
+                p{
+                    font-size: 14px;
+                    color: #404040;
+                }
+            }
+        }
+    }
+}
+.survey{
+    .surveycont{
+        max-width: 1170px;
+        width: 100%;
+        margin: $cont-center;
+        background-image: $surveybg;
+        height: 250px;
+        @include bgimgparams();
+        .surveytext{
+            position: absolute;
+            font-family: $roboto;
+            left: 40px;
+            top: 50px;
+            h2{
+                font-size: 32px;
+                margin-bottom: 15px;
+                color: #F0F0F0;
+            }
+            p{
+                color: #FCFCFC;
+                font-size: 16px;
+            }
+        }
+        .surveybtns{
+            position: absolute;
+            left: 40px;
+            top: 150px;
+            .send{
+                width: 150px;
+                height: 50px;
+                background-image: linear-gradient(to right, #3B79E0 , #58C3DD);
+                color: #F0F0F0;
+                font-size: 17px;
+                border-radius: 20%/50%;
+            }
+            .read{
+                width: 200px;
+                height: 50px;
+                background-color: #010002;
+                color: #F0F0F0;
+                font-size: 17px;
+                border-radius: 15%/50%;
+            }
         }
     }
 }
