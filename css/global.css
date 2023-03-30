@@ -365,6 +365,7 @@ article .articlecontainer .articlecontent > button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  position: relative;
   margin-bottom: 50px;
 }
 .s-1 .sect-1 .right-block .right-top > h3 {
@@ -520,6 +521,7 @@ article .articlecontainer .articlecontent > button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  position: relative;
   background-color: cyan;
 }
 .s-2 .sect-2 .right-block .bg-img > h2 {
@@ -575,4 +577,104 @@ article .articlecontainer .articlecontent > button:hover {
 }
 .hp-footer .footer-container .footerbox > div > h4 {
   margin-bottom: 10px;
+}
+
+.curoniansect {
+  margin-top: 150px;
+}
+.curoniansect .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.curoniansect .container .header {
+  background-image: url("../images/home/homeartimg.jpg");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 80px;
+}
+.curoniansect .container .header > h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+.curoniansect .container .header > h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  color: white;
+}
+.curoniansect .container .content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.curoniansect .container .content > p, .curoniansect .container .content > h3 {
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.curoniansect .container .content > h3 {
+  font-size: 32px;
+}
+.curoniansect .container .content > p {
+  font-size: 16px;
+}
+.curoniansect .container .content .currentstate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.curoniansect .container .content .currentstate > p {
+  max-width: 660px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.curoniansect .container .content .currentstate > div {
+  font-family: "Alkatra", cursive;
+  text-align: center;
+}
+.curoniansect .container .author {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }/*# sourceMappingURL=global.css.map */

@@ -69,7 +69,7 @@ article{
         max-width: 1170px;
         width: 100%;
         margin: $cont-center;
-        background-image: $homearticleimg;
+        background-image: $curonianspit;
         height: 270px;
         background-color: blue;
         position: relative;
@@ -339,5 +339,65 @@ article{
             }
         }
         
+    }
+}
+.curoniansect{
+    margin-top: 150px;
+    .container{
+        max-width: 1170px;
+        width: 100%;
+        margin: $cont-center;
+        .header{
+            background-image: $curonianspit;
+            height: 250px;
+            @include bgimgparams();
+            @include flexparams(flex, center, center, column);
+            margin-bottom: 80px;
+            &>h2{
+                font-family: $roboto;
+                font-size: 40px;
+                color: white;
+                margin-bottom: 10px;
+            }
+            &>h5{
+                font-family: $roboto;
+                font-size: 8px;
+                color: white;
+            }
+        }
+        .content{
+            max-width: 1000px;
+            width: 100%;
+            margin: $cont-center;
+            margin-bottom: 80px;
+            &>p, &>h3{
+                margin-bottom: 20px;
+                font-family: $roboto;
+            }
+            &>h3{
+                font-size: 32px;
+            }
+            &>p{
+                font-size: 16px;
+            }
+            .currentstate{
+                @include flexparams;
+                &>p{
+                    max-width: 660px;
+                    width: 100%;
+                    font-family: $roboto;
+                }
+                &>div{
+                    font-family: $curoniandunes;
+                    text-align: center;
+                }
+            }
+        }
+        .author{
+            max-width: 1000px;
+            width: 100%;
+            margin: $cont-center;
+            @include flexparams();
+        }
     }
 }
