@@ -697,6 +697,9 @@ article .articlecontainer .articlecontent > button:hover {
   color: #404040;
 }
 
+.survey {
+  margin-bottom: 60px;
+}
 .survey .surveycont {
   max-width: 1170px;
   width: 100%;
@@ -744,4 +747,65 @@ article .articlecontainer .articlecontent > button:hover {
   color: #F0F0F0;
   font-size: 17px;
   border-radius: 15%/50%;
+}
+
+.topics {
+  margin-bottom: 60px;
+}
+.topics .simtothis {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-top: 28px;
+}
+.topics .simtothis .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.topics .simtothis .header .logo {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6294A2), to(#58C3DD));
+  background-image: linear-gradient(to right, #6294A2, #58C3DD);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.topics .simtothis .header .text {
+  color: #404040;
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+}
+.topics .simtothis .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.topics .simtothis .content .topic {
+  max-width: 350px;
+  width: 100%;
+}
+.topics .simtothis .content .topic h3 {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.topics .simtothis .content .topic p {
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }/*# sourceMappingURL=global.css.map */
