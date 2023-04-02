@@ -509,3 +509,106 @@ article{
         }
     }
 }
+.mightlike{
+    margin-top: 150px;
+    .container{
+        max-width: 1170px;
+        width: 100%;
+        margin: $cont-center;
+        @include flexparams(flex, flex-start, top, row);
+        .visual{
+            background-image: $namibia;
+            height: 450px;
+            max-width: 770px;
+            width: 100%;
+            @include bgimgparams();
+        }
+        .content{
+            max-width: 400px;
+            width: 100%;
+            padding-left: 40px;
+            h2{
+                font-size: 26px;
+                font-family: $roboto;
+                color: #404040;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+            div{
+                margin-bottom: 50px;
+                h4{
+                    font-size: 13px;
+                    font-family: $roboto;
+                    margin-bottom: 10px;
+                }
+                h3{
+                    font-size: 20px;
+                    font-family: $roboto;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 15px;
+                    font-family: $roboto;
+                }
+            }
+        }
+    }
+}
+.guides{
+    margin-bottom: 100px;
+    .options{
+        max-width: 1170px;
+        width: 100%;
+        margin: $cont-center;
+        @include flexparams();
+        flex-wrap: wrap;
+        .option{
+            max-width: 350px;
+            width: 100%;
+            margin-bottom: 30px;
+            .img{
+                height: 350px;
+                max-width: 350px;
+                width: 100%;
+                border-radius: 100px/50px;
+                @include bgimgparams();
+            }
+            .img1{
+                background-image: $img1;
+                
+            }
+            .img2{
+                background-image: $img2;
+            }
+            .img3{
+                background-image: $img3;
+            }
+            .img4{
+                background-image: $img4;
+            }
+            .img5{
+                background-image: $img5;
+            }
+            .img6{
+                background-image: $img6;
+            }
+            h3{
+                font-family: $roboto;
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 28px;
+            }
+            p{
+                font-family: $roboto;
+                padding-left: 30px;
+                margin-bottom: 20px;
+                font-size: 15px;
+            }
+            h4{
+                font-family: $roboto;
+                font-size: 13px;
+                padding-left: 30px;
+            }
+        }
+    }
+}

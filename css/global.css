@@ -808,4 +808,139 @@ article .articlecontainer .articlecontent > button:hover {
   padding-left: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+}
+
+.mightlike {
+  margin-top: 150px;
+}
+.mightlike .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.mightlike .container .visual {
+  background-image: url("../images/discover/namibia.png");
+  height: 450px;
+  max-width: 770px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mightlike .container .content {
+  max-width: 400px;
+  width: 100%;
+  padding-left: 40px;
+}
+.mightlike .container .content h2 {
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  color: #404040;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.mightlike .container .content div {
+  margin-bottom: 50px;
+}
+.mightlike .container .content div h4 {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.mightlike .container .content div h3 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.mightlike .container .content div p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.guides {
+  margin-bottom: 100px;
+}
+.guides .options {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.guides .options .option {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.guides .options .option .img {
+  height: 350px;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 100px/50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.guides .options .option .img1 {
+  background-image: url("../images/discover/n1.png");
+}
+.guides .options .option .img2 {
+  background-image: url("../images/discover/n2.png");
+}
+.guides .options .option .img3 {
+  background-image: url("../images/discover/n3.png");
+}
+.guides .options .option .img4 {
+  background-image: url("../images/discover/n4.png");
+}
+.guides .options .option .img5 {
+  background-image: url("../images/discover/n5.png");
+}
+.guides .options .option .img6 {
+  background-image: url("../images/discover/n6.png");
+}
+.guides .options .option h3 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+}
+.guides .options .option p {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.guides .options .option h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  padding-left: 30px;
 }/*# sourceMappingURL=global.css.map */
